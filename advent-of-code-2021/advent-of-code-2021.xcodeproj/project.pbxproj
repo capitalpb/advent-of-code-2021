@@ -16,6 +16,9 @@
 		D02861202868E13A0073FFE0 /* Solver01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D028611F2868E13A0073FFE0 /* Solver01Tests.swift */; };
 		D02861232868E19A0073FFE0 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = D02861222868E19A0073FFE0 /* Algorithms */; };
 		D02861252868E24C0073FFE0 /* day01.txt in Resources */ = {isa = PBXBuildFile; fileRef = D02861242868E24C0073FFE0 /* day01.txt */; };
+		D0AFB6B02868E75500B8DED5 /* Solver02.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AFB6AF2868E75500B8DED5 /* Solver02.swift */; };
+		D0AFB6B22868E79400B8DED5 /* Solver02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AFB6B12868E79400B8DED5 /* Solver02Tests.swift */; };
+		D0AFB6B42868E90000B8DED5 /* day02.txt in Resources */ = {isa = PBXBuildFile; fileRef = D0AFB6B32868E90000B8DED5 /* day02.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,9 @@
 		D028611B2868E0C50073FFE0 /* Solver01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solver01.swift; sourceTree = "<group>"; };
 		D028611F2868E13A0073FFE0 /* Solver01Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solver01Tests.swift; sourceTree = "<group>"; };
 		D02861242868E24C0073FFE0 /* day01.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day01.txt; sourceTree = "<group>"; };
+		D0AFB6AF2868E75500B8DED5 /* Solver02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solver02.swift; sourceTree = "<group>"; };
+		D0AFB6B12868E79400B8DED5 /* Solver02Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solver02Tests.swift; sourceTree = "<group>"; };
+		D0AFB6B32868E90000B8DED5 /* day02.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day02.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				D028611F2868E13A0073FFE0 /* Solver01Tests.swift */,
+				D0AFB6B12868E79400B8DED5 /* Solver02Tests.swift */,
 			);
 			path = AdventKitTests;
 			sourceTree = "<group>";
@@ -147,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				D02861242868E24C0073FFE0 /* day01.txt */,
+				D0AFB6B32868E90000B8DED5 /* day02.txt */,
 			);
 			path = Inputs;
 			sourceTree = "<group>";
@@ -162,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				D028611B2868E0C50073FFE0 /* Solver01.swift */,
+				D0AFB6AF2868E75500B8DED5 /* Solver02.swift */,
 			);
 			path = Solvers;
 			sourceTree = "<group>";
@@ -326,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D02861252868E24C0073FFE0 /* day01.txt in Resources */,
+				D0AFB6B42868E90000B8DED5 /* day02.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +410,7 @@
 			files = (
 				D02861192868E0820073FFE0 /* Solver.swift in Sources */,
 				D028611C2868E0C50073FFE0 /* Solver01.swift in Sources */,
+				D0AFB6B02868E75500B8DED5 /* Solver02.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +418,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0AFB6B22868E79400B8DED5 /* Solver02Tests.swift in Sources */,
 				D02861202868E13A0073FFE0 /* Solver01Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

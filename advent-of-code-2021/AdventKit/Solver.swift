@@ -16,6 +16,7 @@ public protocol Solver {
 public func getSolver(_ day: Int, input: String) -> Solver? {
     switch day {
     case 1: return Solver01(input: input)
+    case 2: return Solver02(input: input)
     default: return nil
     }
 }

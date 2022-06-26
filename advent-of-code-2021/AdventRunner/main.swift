@@ -8,7 +8,7 @@
 import AdventKit
 import Foundation
 
-let day = 1
+let day = 2
 let dayString = String(format: "%02d", day)
 
 let currentDirectoryURL = URL(fileURLWithPath: FileManager.default.currentDirectoryPath)
